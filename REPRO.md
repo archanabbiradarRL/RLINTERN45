@@ -63,7 +63,7 @@ python experiments/train_charlm.py --data data/tiny.txt --device cpu --steps 100
 
 ### Train with positional encoding:
 ```bash
-python experiments/train_charlm_loss.py --data data/sample.txt --seq_len 64 --d_model 256 --n_heads 1 --n_layers 3 --lr 3e-4 --batch_size 64 --steps 5000        
+python experiments/train_charlm_loss.py --data data/sample.txt --seq_len 64 --d_model 256 --n_heads 4 --n_layers 3 --lr 3e-4 --batch_size 64 --steps 5000        
                                                             
 ```
 ### Train without positional encoding:
