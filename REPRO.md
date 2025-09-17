@@ -82,7 +82,7 @@ python experiments/eval.py --model checkpoints/step1000.pt --data data/sample.tx
 
 Evaluate using loss metrics with positional encoding:
 ```bash
-python -m experiments.eval_loss --ckpts checkpoints/loss_step1000.pt checkpoints/loss_step2000.pt checkpoints/loss_step3000.pt checkpoints/loss_step3999.pt --data data/sample.txt --seq_len 64
+python -m experiments.eval_loss --ckpts checkpoints/loss_step1000.pt checkpoints/loss_step2000.pt checkpoints/loss_step3000.pt checkpoints/loss_step4000.pt checkpoints/loss_step5000.pt --data data/sample.txt --seq_len 64
 ```
 
 Evaluate using loss metrics without positional encoding:
