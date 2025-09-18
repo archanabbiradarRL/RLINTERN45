@@ -2,7 +2,7 @@
 
 This project implements a **Tiny Transformer** for character-level language modeling.
 
-## 🚀 Features
+##  Features
 - Attention and Multi-Head Attention from scratch
 - Transformer blocks with/without positional encoding
 - Training, evaluation, and text generation scripts
