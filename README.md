@@ -8,7 +8,7 @@ This project implements a **Tiny Transformer** for character-level language mode
 - Training, evaluation, and text generation scripts
 - Reproducible experiments with checkpoints
 
-## ⚙️ Setup
+##  Setup
 ```bash
 git clone https://github.com/archanabbiradarRL/RLINTERN45.git
 cd RLINTERN45
